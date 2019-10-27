@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <Button
+        android:id="@+id/buttonvalid1"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="550dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue"
+        android:text="Driver : Dino Maruan \nAnak dijemput : Caca Sintia"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah"/>
+
+    <Button
+        android:id="@+id/buttonvalid2"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="440dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue"
+        android:text="Driver : Dino Maruan \nAnak dijemput : Caca Sintia"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah2"/>
+
+    <Button
+        android:id="@+id/buttonvalid3"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="330dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue"
+        android:text="Driver : Gunawan \nAnak dijemput : Andre sidiq"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah3"/>
+
+    <Button
+        android:id="@+id/buttonvalid4"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="220dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue"
+        android:text="Driver : Dhea Zulina \nAnak dijemput : Kiki Audri"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:onClick="Pindah4"/>
+
+</RelativeLayout>

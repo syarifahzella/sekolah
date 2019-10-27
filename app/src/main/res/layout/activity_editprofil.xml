@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="190dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/index"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/buttonupload"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="470dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/blue"
+            android:text="Upload"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="400dp"
+                android:text="Nama Sekolah : SD NEGERI 3 PONTIANAK"
+                android:id="@+id/text1"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="350dp"
+                android:text="Alamat Sekolah : K.H Wahid Hasyim"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="300dp"
+                android:text="NISS : 101136004003"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="250dp"
+                android:text="Tanggal Pendirian : "
+                android:textSize="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="200dp"
+                android:text="Visi dan Misi : "
+                android:id="@+id/text6"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="150dp"
+                android:text="Fasilitas : "
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="100dp"
+                android:text="Prestasi : "
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="Akreditasi : "
+                android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/buttontambah"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Simpan"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/blue"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="Pindah">
+
+    </Button>
+
+</RelativeLayout>

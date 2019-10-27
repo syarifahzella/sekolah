@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sekolah">
+
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".suksesvalid"></activity>
+        <activity android:name=".profilvalidasi4"
+            android:parentActivityName=".validasi"/>
+        <activity android:name=".profilvalidasi3"
+            android:parentActivityName=".validasi"/>
+        <activity android:name=".profilvalidasi2"
+            android:parentActivityName=".validasi"/>
+        <activity android:name=".profilvalidasi"
+            android:parentActivityName=".validasi"/>
+        <activity android:name=".validasi"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".suksesedit" />
+        <activity android:name=".editprofil"
+            android:parentActivityName=".lihatsekolah"/>
+        <activity android:name=".lihatsekolah"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".suksestambah" />
+        <activity android:name=".profiltambah"
+            android:parentActivityName=".profilsekolah"/>
+        <activity android:name=".profilsekolah"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
